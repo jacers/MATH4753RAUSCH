@@ -1,0 +1,10 @@
+Package: FALL224753raus0009
+Type: Package
+Title: R functions from the labs
+Version: 0.1.0
+Author: Jace Rausch
+Maintainer: Jace Rausch <jacerausch@gmail.com>
+Description: MATH 4753 functions detailed from LABS.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
