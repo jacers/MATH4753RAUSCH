@@ -24,5 +24,5 @@ It can return the CI for the mean using the Student's t-distribution or for the 
 The function also provides an option to conduct a t-test for comparison when calculating the CI for the mean.
 }
 \examples{
-myci(x, percent = 0.95, mode = "mean")
+myci(x = 1:100, percent = 0.95, mode = "mean")
 }

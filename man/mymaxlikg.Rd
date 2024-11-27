@@ -23,5 +23,5 @@ the maximum likelihood estimate (MLE), and returns the parameter value correspon
 logbin2 = function(theta) {
 log(dbinom(2, prob = theta, size = 6)) + log(dbinom(4, prob = theta, size = 10))
 }
-mymaxlikg(loglik, seq(0.01, 0.99, by = 0.01))
+mymaxlikg(loglik, seq(0.01, 0.99, by = 0.01, theta = 0.91))
 }

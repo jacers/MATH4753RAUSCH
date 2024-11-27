@@ -14,7 +14,7 @@
 #' @export
 #'
 #' @examples
-#' myci(x, percent = 0.95, mode = "mean")
+#' myci(x = 1:100, percent = 0.95, mode = "mean")
 myci = function(x, percent = 0.95, mode = "mean") {
   # Variables used across the calculations
   ybar  = mean(x)

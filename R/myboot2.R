@@ -50,5 +50,5 @@ myboot2 <- function(iter = 10000, x, fun = "mean", alpha = 0.05, cx = 1.5, ...){
   # plot the point estimate 1/2 way up the density
   text(pte, max(para$density) / 2, round(pte, 2), cex = cx)
 
-  invisible(list(ci = ci, fun = fun, x = x, xstat = xstat, task5 = task5)) # Some output to use if necessary
+  invisible(list(ci = ci, fun = fun, x = x, xstat = xstat)) # Some output to use if necessary
 }

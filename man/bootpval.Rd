@@ -4,7 +4,13 @@
 \alias{bootpval}
 \title{bootpval function}
 \usage{
-bootpval(x = x1, conf.level = 0.95, iter = 3000, mu0 = 0, test = "two")
+bootpval(
+  x = c(10, 9, 8, 7, 6, 5, 4, 3, 2, 1),
+  conf.level = 0.95,
+  iter = 3000,
+  mu0 = 0,
+  test = "two"
+)
 }
 \arguments{
 \item{x}{vector of data values for which the p-value is calculated.}
@@ -32,5 +38,5 @@ This function performs a bootstrap hypothesis test and calculates the p-value fo
 It can perform a two-sided, upper, or lower tail test and generates a histogram of the bootstrap resampled t-statistics.
 }
 \examples{
-bootpval(x = x1, conf.level = 0.95, iter = 3000, mu0 = 5, test = "two")
+bootpval(x = c(10,9,8,7,6,5,4,3,2,1), conf.level = 0.95, iter = 3000, mu0 = 5, test = "two")
 }

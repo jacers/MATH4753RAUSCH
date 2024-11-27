@@ -14,7 +14,7 @@
 #' logbin2 = function(theta) {
 #' log(dbinom(2, prob = theta, size = 6)) + log(dbinom(4, prob = theta, size = 10))
 #' }
-#' mymaxlikg(loglik, seq(0.01, 0.99, by = 0.01))
+#' mymaxlikg(loglik, seq(0.01, 0.99, by = 0.01, theta = 0.91))
 mymaxlikg = function(lfun = "logbin2", theta) { # default log lik is a combination bin
   nth = length(theta) # nu. of valuse used in theta
   thmat = matrix(theta, nr = nth, nc = 1, byrow = TRUE) # Matrix of theta

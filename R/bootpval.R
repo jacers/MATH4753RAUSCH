@@ -20,8 +20,8 @@
 #' @export
 #'
 #' @examples
-#' bootpval(x = x1, conf.level = 0.95, iter = 3000, mu0 = 5, test = "two")
-bootpval<-function(x=x1,conf.level=0.95,iter=3000,mu0=0, test="two") {
+#' bootpval(x = c(10,9,8,7,6,5,4,3,2,1), conf.level = 0.95, iter = 3000, mu0 = 5, test = "two")
+bootpval<-function(x=c(10,9,8,7,6,5,4,3,2,1),conf.level=0.95,iter=3000,mu0=0, test="two") {
   n=length(x)
   y=x-mean(x)+mu0  # transform the data so that it is centered at the NULL
   rs.mat<-c()    #rs.mat will become a resample matrix -- now it is an empty vector
