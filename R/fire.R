@@ -12,4 +12,4 @@
 #' ...
 #' }
 #' @source <https://www.who.int/teams/global-tuberculosis-programme/data>"who"
-fire=read.csv(“FIREDAM.csv”)
+# fire=read.csv(“FIREDAM.csv”)

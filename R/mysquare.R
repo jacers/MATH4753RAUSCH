@@ -7,6 +7,6 @@
 #'
 #' @examples
 #' mysquare(x = 1:10)
-mysquare <-- function(x) {
+mysquare <- function(x) {
   x^2
 }
